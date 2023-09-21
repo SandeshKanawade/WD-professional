@@ -17,7 +17,16 @@
     background-repeat: no-repeat;
   } */
 
-
+.background{
+    width: 100%;
+    max-width: 1515px;
+    margin: 0 auto;
+}
+@media (max-width: 400px) {
+    .background {
+      max-width: 100%; /* Set the maximum width to 100% for screens less than 400px wide */
+    }
+  }
 
 .bgimg img{
     /* position: relative; */
