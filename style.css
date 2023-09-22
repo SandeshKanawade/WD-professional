@@ -16,7 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
   } */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .nav-bar {
       background-color: springgreen; /* Set the maximum width to 100% for screens less than 400px wide */
       max-width: 200px;
