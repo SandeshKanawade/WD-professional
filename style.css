@@ -16,15 +16,39 @@
     background-size: cover;
     background-repeat: no-repeat;
   } */
+  @media (max-width: 500px) {
+    .nav-bar {
+      background-color: springgreen; /* Set the maximum width to 100% for screens less than 400px wide */
+      max-width: 200px;
+      flex-direction: column;
+    }
+    .bgimg img{
+        max-width: 500px;
+    }
+    .foot, .foot-2, .foot-3{
+        flex-direction: column;
+        max-width: 500px;
+        
+    }
+    .foot-3{
+        text-align: center;
+    }
+    .login{
+        max-width: 100px;
+        height: 50px;
+    }
+        
+  }
+
 
 .background{
     width: 100%;
     max-width: 1515px;
     margin: 0 auto;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .background {
-      max-width: 100%; /* Set the maximum width to 100% for screens less than 400px wide */
+      max-width: 500px; /* Set the maximum width to 100% for screens less than 400px wide */
     }
   }
 
@@ -60,19 +84,18 @@
     /* mask: linear-gradient(to right, transparent 0%, black 50%, transparent 100%); */
 
 }
+
+
 .bgimg{
     display: block;
     width: 100%;
     height: auto;
     /* background-color: rgb(255, 255, 255); */
-
-
-
-
-    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-   
-
 }
+
+
+
+
 .navbar{
     /* background-color: rgb(0, 0, 0); */
     height: 0;
@@ -96,9 +119,15 @@
     display: flex;
 }
 
+
 .nav{
     display: flex;
 }
+@media (max-width: 400px) {
+    .nav {
+      background-color: rgb(0, 157, 255); /* Set the maximum width to 100% for screens less than 400px wide */
+    }
+  }
 /* top-three */
 
 .logo{
