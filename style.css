@@ -16,7 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
   } */
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     .nav-bar {
       background-color: springgreen; /* Set the maximum width to 100% for screens less than 400px wide */
       max-width: 200px;
@@ -25,6 +25,22 @@
     .bgimg img{
         max-width: 1080px;
     }
+    .bgimg{
+        width: 1080px;
+    }
+    .Main-section{
+        width: 1080px;
+        /* margin: 0 90px 0 10px; */
+        padding: 50px 50px 0 50px;
+    }
+    .main-four{
+        /* margin: 5px 100px; */
+        padding: 0 100px;
+    }
+    .hide{
+        display: block;
+    }
+    
     .foot, .foot-2, .foot-3{
         flex-direction: column;
         max-width: 500px;
