@@ -16,18 +16,18 @@
     background-size: cover;
     background-repeat: no-repeat;
   } */
-  @media (max-width: 1200px) {
+  @media (max-width: 500px) {
     .nav-bar {
       background-color: springgreen; /* Set the maximum width to 100% for screens less than 400px wide */
       max-width: 200px;
       flex-direction: column;
     }
     .bgimg img{
-        max-width: 1100px;
+        max-width: 1080px;
     }
     .foot, .foot-2, .foot-3{
         flex-direction: column;
-        max-width: 1100px;
+        max-width: 500px;
         
     }
     .foot-3{
@@ -36,6 +36,9 @@
     .login{
         max-width: 100px;
         height: 50px;
+    }
+    footer{
+        width: 1080px;
     }
         
   }
@@ -46,9 +49,9 @@
     max-width: 1515px;
     margin: 0 auto;
 }
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
     .background {
-      max-width: 1100px; /* Set the maximum width to 100% for screens less than 400px wide */
+      max-width: 500px; /* Set the maximum width to 100% for screens less than 400px wide */
     }
   }
 
