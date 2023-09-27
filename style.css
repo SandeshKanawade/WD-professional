@@ -16,48 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
   } */
-  @media (max-width: 700px) {
-    .nav-bar {
-      background-color: springgreen; /* Set the maximum width to 100% for screens less than 400px wide */
-      max-width: 200px;
-      flex-direction: column;
-    }
-    .bgimg img{
-        max-width: 1080px;
-    }
-    .bgimg{
-        width: 1080px;
-    }
-    .Main-section{
-        width: 1080px;
-        /* margin: 0 90px 0 10px; */
-        padding: 50px 50px 0 50px;
-    }
-    .main-four{
-        /* margin: 5px 100px; */
-        padding: 0 100px;
-    }
-    .hide{
-        display: block;
-    }
-    
-    .foot, .foot-2, .foot-3{
-        flex-direction: column;
-        max-width: 500px;
-        
-    }
-    .foot-3{
-        text-align: center;
-    }
-    .login{
-        max-width: 100px;
-        height: 50px;
-    }
-    footer{
-        width: 1080px;
-    }
-        
-  }
+
 
 
 .background{
@@ -65,11 +24,6 @@
     max-width: 1515px;
     margin: 0 auto;
 }
-@media (max-width: 500px) {
-    .background {
-      max-width: 500px; /* Set the maximum width to 100% for screens less than 400px wide */
-    }
-  }
 
 .bgimg img{
     /* position: relative; */
@@ -142,11 +96,7 @@
 .nav{
     display: flex;
 }
-@media (max-width: 400px) {
-    .nav {
-      background-color: rgb(0, 157, 255); /* Set the maximum width to 100% for screens less than 400px wide */
-    }
-  }
+
 /* top-three */
 
 .logo{
