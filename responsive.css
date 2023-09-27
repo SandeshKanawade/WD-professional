@@ -1,0 +1,101 @@
+@media (max-width: 1050px) {
+
+    .background {
+        max-width: 500px; /* Set the maximum width to 100% for screens less than 400px wide */
+      }
+
+    .nav-bar {
+      /* background-color: springgreen;  */
+      max-width: 200px;
+      flex-direction: column;
+    }
+
+    .search-input{
+        display: flex;
+        font-size: 18px;
+        height: 48px;
+        width: 500px;
+    }
+
+    .bgimg img{
+        max-width: 1080px;
+        height: 1000px;
+    }
+    .bgimg{
+        width: 1080px;
+        
+    }
+    .Main-section{
+        width: 1080px;
+        /* margin: 0 90px 0 10px; */
+        padding: 50px 50px 0 50px;
+    }
+    .main-four{
+        /* margin: 5px 100px; */
+        padding: 0 100px;
+    }
+    .nav-bar{
+        display: flex;
+    }
+    
+ .icons{
+    float: right;
+    /* display: flex; */
+    width: 100px;
+    padding-left: 50px;
+    /* font-size: 20px; */
+ }
+
+
+    .container{
+        
+        /* padding: 0 50px 0 50px; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+        /* justify-content: space-between ; */
+        /* justify-content: space-around; */
+
+        
+    }
+    .sectionn{
+        width: 1080px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .card{
+        /* height: 550px;
+        width: 50px; */
+        margin: 60px;
+    }
+    .main-four{
+        max-width: 1000px;
+        
+    }
+
+    
+    .foot, .foot-2, .foot-3{
+        flex-direction: column;
+        max-width: 1080px;
+        text-align: center;
+        align-items: center;
+
+        
+    }
+    .foot-3{
+        text-align: center;
+        max-width: 1080px;
+
+    }
+    .login{
+        max-width: 1080px;
+        height: 50px;
+    }
+    footer{
+        width: 1080px;
+    }
+        
+  }
